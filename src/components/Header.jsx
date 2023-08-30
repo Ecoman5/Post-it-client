@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "../assets/logo.png";
 import { Container } from "react-bootstrap";
+import "../style/ultimate.css";
 
 const Header = ({ t1, t2, t3 }) => {
   return (
@@ -30,7 +31,10 @@ const Header = ({ t1, t2, t3 }) => {
                     Stories
                   </Link>
 
-                  <Link to="/error" className="text-decoration-none text-dark fw-bold tag">
+                  <Link
+                    to="/error"
+                    className="text-decoration-none text-dark fw-bold tag"
+                  >
                     Contact
                   </Link>
                   <Link
@@ -42,9 +46,9 @@ const Header = ({ t1, t2, t3 }) => {
                   {t2 && (
                     <Link
                       to="/register"
-                      className="text-decoration-none text-dark fw-bold tag me-2"
+                      className="text-decoration-none text-dark fw-bold tag me-2 getbtn"
                     >
-                      <button className="btn btn-primary">{t2}</button>
+                      <button className="btn text-light">{t2}</button>
                     </Link>
                   )}
                   <Link

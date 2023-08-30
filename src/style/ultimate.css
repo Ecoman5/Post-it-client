@@ -9,7 +9,9 @@
  margin: auto;
  padding-top: 10px;
 }
-
+.getbtn button{
+   background-color: var(--blue);
+}
 .login-input {
  width: 700px;
  height: 600px;
