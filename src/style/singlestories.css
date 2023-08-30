@@ -1,0 +1,60 @@
+.sgtag{
+   border-radius: 5px;
+   width: 90px;
+   text-align: center;
+   color: #FDFEFF;
+   font-family: var(--harmattan);
+   padding: auto;
+   text-transform: capitalize;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+}
+.sgtit{
+ color: #292929;
+  font-family: var(--harmattan);
+  font-size: 62.133px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+.sgdes{
+ width: 100%;
+ text-align: start;
+ color: #7B7B7B;
+  font-family: var(--opensans);
+  font-size: 27.96px;
+  font-style: normal;
+  font-weight: 400;
+}
+.singlest img{
+ width: 100%;
+}
+.sgicon h3{
+ color: #292929;
+  font-family: var(--opensans);
+  font-size: 27.96px;
+  font-style: normal;
+  font-weight: 400;
+}
+.sgicon p{
+ font-size: 25px;
+ margin-left: 30px;
+}
+
+@media (max-width: 768px) {
+ .sgtit{
+  font-size: 40px;
+  line-height: 40px;
+ }
+ .sgdes{
+  font-size: 15px;
+ }
+ .sgicon h3{
+  font-size: 17px;
+ }
+ .sgicon p{
+  font-size: 15px;
+  margin-left: 15px;
+ }
+}

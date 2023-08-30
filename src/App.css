@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&family=Open+Sans&display=swap');
+
+:root{
+ --harmattan: 'Harmattan', sans-serif;
+  --opensans: 'Open Sans', sans-serif;
+  --blue: #0086B0;
+  --yellow: #E5BF5E;
+  --green: #41D750;
+  --lightblue: #6397E5;
+  --black: #292929;
+  --harsh: #6D6D6D;
+}
+
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+ list-style-type: none;
+}
